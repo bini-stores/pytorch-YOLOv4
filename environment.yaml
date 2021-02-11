@@ -11,3 +11,4 @@ dependencies:
     - pip:
         - install -f requirements.txt
         - natsort
+        - Pillow
