@@ -1,0 +1,13 @@
+name: yolo-pytorch
+channels:
+  - pytorch
+dependencies:
+    - python
+    - pytorch::pytorch
+    - pytorch::torchvision
+    - cudatoolkit=11.0
+    - opencv
+    - pip
+    - pip:
+        - install -f requirements.txt
+        - natsort
