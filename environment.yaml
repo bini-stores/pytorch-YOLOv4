@@ -12,3 +12,6 @@ dependencies:
         - install -f requirements.txt
         - natsort
         - Pillow
+        - tqdm
+        - tensorboardX
+        - easydict
